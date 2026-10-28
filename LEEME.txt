@@ -1,0 +1,21 @@
+JARVIS PARA IPHONE - GUIA RAPIDA
+================================
+1. Extrae este ZIP.
+2. En GitHub crea un repositorio publico (por ejemplo jarvis-iphone).
+3. Sube TODOS los archivos de esta carpeta a la raiz del repositorio (no solo el ZIP).
+4. En GitHub ve a Settings > Pages > Deploy from a branch > main > / (root) > Save.
+5. Espera a que GitHub Pages publique la web. Abre la URL HTTPS que aparece en Pages desde Safari en tu iPhone.
+6. En Safari toca Compartir > Añadir a pantalla de inicio.
+7. Para usar IA, pulsa el engranaje y configura un endpoint HTTPS compatible con OpenAI Chat Completions y su modelo.
+
+IMPORTANTE
+- La aplicacion funciona por texto; el reconocimiento de voz depende de si el navegador iOS expone SpeechRecognition y de los permisos del microfono. No se garantiza en todas las versiones de Safari.
+- Las respuestas habladas usan las voces disponibles en el dispositivo.
+- Sin endpoint, funcionan comandos locales: hora, fecha, chistes, abrir webs y recordar datos.
+- El servidor debe aceptar peticiones CORS desde tu dominio de GitHub Pages.
+- NO pongas claves privadas de OpenAI, ElevenLabs u otros servicios en el codigo de la web ni en un repositorio publico. Usa un backend seguro para autenticar y reenviar solicitudes.
+- Ollama de Windows no se ejecuta dentro de esta web. Para usar Ollama necesitaras un servidor remoto seguro con API compatible.
+- La memoria se guarda localmente en el navegador y no se sincroniza entre dispositivos.
+- Algunas funciones del script original de Windows no estan disponibles en iPhone por restricciones del sistema.
+
+Archivo jarvis_original_windows.py: copia del codigo que enviaste, como referencia.

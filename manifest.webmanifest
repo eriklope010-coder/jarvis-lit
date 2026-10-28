@@ -1,0 +1,1 @@
+{"name":"Jarvis - Asistente personal","short_name":"Jarvis","description":"Jarvis para iPhone","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#050b19","theme_color":"#050b19","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
